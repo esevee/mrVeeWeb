@@ -1239,11 +1239,13 @@ success message
   flex-direction: column;
   text-align: center;
   margin: 20% 0;
+  overflow-y: hidden;
 }
 
 #successMark {
   background: rgb(46, 179, 19);
   font-size: 5rem;
+  
 }
 
 #thankYou {
@@ -1258,8 +1260,13 @@ success message
   color: rgb(46, 179, 19);
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 360px) {
+/* Medium devices (landscape tablets, 768px and up (if min)) */
+@media only screen and (max-width: 768px) {
+  .success {
+    padding-top: 50%;
+  }
+}
+@media only screen and (max-width: 1024px) {
   .success {
     padding-top: 50%;
   }
