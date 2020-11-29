@@ -720,6 +720,10 @@ section .container {
   }
 }
 
+.design {
+  color: #d27b18;
+}
+
 #sweetButton {
   text-transform: uppercase;
   padding: 12px 25px;
