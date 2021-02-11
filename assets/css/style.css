@@ -40,6 +40,14 @@ li {
   list-style: none;
 }
 
+/*--------------------------------------------------------------
+# About Img
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+  #aboutImg {
+    display: none;
+  }
+}
 
 /*--------------------------------------------------------------
 # Header
@@ -65,10 +73,6 @@ li {
   line-height: 1;
   font-weight: 700;
   font-family: 'Big Shoulders Inline Text', cursive;
-}
-
-#myName {
-
 }
 
 #header h2 {
