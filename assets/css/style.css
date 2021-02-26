@@ -171,7 +171,7 @@ li {
   border-radius: 45%;
   background-color: #d27b18;
   visibility: hidden;
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
 }
 
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {

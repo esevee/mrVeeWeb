@@ -30,8 +30,7 @@
           setTimeout(function() {
             $("section").removeClass('section-show');
             $(hash).addClass('section-show');
-
-          }, 350);
+          }, 400);
         } else {
           $("section").removeClass('section-show');
           $(hash).addClass('section-show');
@@ -44,7 +43,7 @@
         if ($('body').hasClass('mobile-nav-active')) {
           $('body').removeClass('mobile-nav-active');
           $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
-          $('.mobile-nav-overly').fadeOut();
+          $('.mobile-nav-overly').fadeIn();
         }
 
         return false;
@@ -154,8 +153,6 @@
     });
   });
 
-  //aos animation
-  
 
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
@@ -166,4 +163,17 @@
   });
 
 })(jQuery);
+
+//auto typing
+  var typed = new Typed(".autoTyping", {
+    strings: [
+      "is creative",
+      "is initiative",
+      "is attentive",
+    ],
+    typeSpeed: 200,
+    backDelay: 40,
+    backSpeed: 80,
+    loop: true,
+  });
 
